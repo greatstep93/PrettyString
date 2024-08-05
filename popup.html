@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>home</title>
+</head>
+<link rel="stylesheet" href="css/prism.css">
+<style>
+  pre {
+    outline: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .tag {
+    color: #58151c;
+  }
+
+  .string {
+    color: green;
+  }
+
+  .number {
+    color: darkorange;
+  }
+
+  .boolean {
+    color: blue;
+  }
+
+  .null {
+    color: magenta;
+  }
+
+  .key {
+    color: red;
+  }
+
+  .xtb {
+    display: table;
+    font-family: monospace;
+  }
+
+  .xtc {
+    display: table-cell;
+  }
+
+  .xmt {
+    color: #0000CC;
+    display: inline;
+  }
+
+  .xel {
+    color: #990000;
+    display: inline;
+  }
+
+  .xdt {
+    color: #000000;
+    display: inline;
+  }
+
+  .xat {
+    color: #FF0000;
+    display: inline;
+  }
+</style>
+<body>
+  <div>
+    <label for="input" class="form-label">INPUT</label>
+    <input class="form-control" id="input">
+    <button type="submit" style="margin-top: 20px" id="pretty-button">Pretty</button>
+    <button type="submit" id="copy-button">Copy Output</button>
+  </div>
+  <div>
+    <label for="input2" class="form-label"></label>
+    <pre class="language-xml" id="input2"></pre>
+  </div>
+</body>
+<script src="js/prism.js"></script>
+<script src="js/pretty.js"></script>
+<script src="js/copy.js"></script>
+</html>

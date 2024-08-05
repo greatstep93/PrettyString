@@ -1,0 +1,24 @@
+{
+  "name": "Pretty request/response json/xml",
+  "description": "Project from Kibana Discover",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "/images/json.png",
+      "32": "/images/json.png",
+      "48": "/images/json.png",
+      "128": "/images/json.png"
+    },
+    "default_popup": "popup.html",
+    "content_security_policy": "script-src 'self' 'sha256-/EgIzqm7xWPZWCEcijTKxZXpTbhtoXUpBv0WtzpCJHc='"
+  },
+  "icons": {
+    "16": "/images/json.png",
+    "32": "/images/json.png",
+    "48": "/images/json.png",
+    "128": "/images/json.png"
+  },
+  "permissions": [],
+  "background": {}
+} 
