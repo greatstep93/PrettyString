@@ -64,18 +64,42 @@
     color: #FF0000;
     display: inline;
   }
+
+  .wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: antiquewhite;
+    min-width: 280px;
+  }
+
+  .input-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    background: antiquewhite;
+    min-width: 280px;
+    text-align: center;
+  }
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=2, shrink-to-fit=no">
 <body>
+<div class="wrapper">
   <div>
     <label for="input" class="form-label">INPUT</label>
-    <input class="form-control" id="input">
-    <button type="submit" style="margin-top: 20px" id="pretty-button">Pretty</button>
-    <button type="submit" id="copy-button">Copy Output</button>
+    <input class="input-wrapper" id="input">
+
   </div>
-  <div>
-    <label for="input2" class="form-label"></label>
-    <pre class="language-xml" id="input2"></pre>
-  </div>
+
+</div>
+<div style="text-align: center;margin-top: 20px; margin-bottom: 20px">
+  <button type="submit" id="pretty-button">Pretty</button>
+  <button type="submit" id="copy-button">Copy Output</button>
+  <button type="submit" id="copy-button-from-tg">Copy for Telegram</button>
+</div>
+<div>
+  <label for="input2" class="form-label"></label>
+  <pre class="language-xml" id="input2"></pre>
+</div>
 </body>
 <script src="js/prism.js"></script>
 <script src="js/pretty.js"></script>
