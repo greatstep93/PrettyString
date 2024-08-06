@@ -1,6 +1,6 @@
 {
-  "name": "Pretty request/response json/xml",
-  "description": "Project from Kibana Discover",
+  "name": "PrettyString",
+  "description": "Быстрое преобразование строки с body формата xml/json в читаемый формат с подсветкой синтаксиса",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
